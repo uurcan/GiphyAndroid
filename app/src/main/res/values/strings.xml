@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">giphy-android</string>
+    <string name="search_gifs">Search gifs…</string>
+    <string name="error_no_network_connection">No network connection provided</string>
+    <string name="search_result_empty">No results found with this query, please try something else</string>
+</resources>
