@@ -117,7 +117,7 @@ class GifViewModel @Inject constructor(
         state = state.copy(gifSearchApiResult = ApiResult.Error(errorMessage))
     }
 
-    fun onSearchGifSucceeded(response: SearchGifResponse) {
+    private fun onSearchGifSucceeded(response: SearchGifResponse) {
         state = if (response.data.isEmpty()) {
             state.copy(noContentReason = NoContentReason.EmptyData())
         } else {
